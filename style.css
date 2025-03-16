@@ -6,20 +6,20 @@ body {
     padding: 0;
 }
 
-.logo {
-    width: 150px; /* Ändere die Größe nach Bedarf */
-    display: block;
-    margin: 20px auto; /* Zentriert das Logo */
-}
-
 header {
     background: #007BFF;
     color: white;
     padding: 20px;
 }
 
+.logo {
+    width: 150px; /* Passe die Größe deines Logos hier an */
+    display: block;
+    margin: 10px auto; /* Zentriert das Logo */
+}
+
 h1 {
-    margin: 0;
+    margin: 10px 0;
 }
 
 nav {
@@ -41,7 +41,7 @@ footer {
     background: #222;
     color: white;
     padding: 10px;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
