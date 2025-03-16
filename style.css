@@ -23,24 +23,33 @@ header {
     height: auto;
     display: block;
     margin: 0 auto;
-    filter: drop-shadow(0px 0px 10px rgba(255, 215, 0, 0.6));
+    filter: drop-shadow(0px 0px 10px rgba(120, 140, 255, 0.8)); /* Universums-Leuchteffekt */
 }
 
 /* Navigation */
 nav {
     margin: 20px 0;
 }
+
 nav a {
     text-decoration: none;
-    color: #8ea6d5;
+    color: #8ea6d5; /* Standardfarbe */
     font-weight: bold;
     margin: 0 15px;
     font-size: 18px;
     transition: color 0.3s ease-in-out;
 }
+
+/* 💫 Universum-Hover-Effekt */
 nav a:hover {
-    color: #ffd700;
-    text-shadow: 0px 0px 10px rgba(255, 215, 0, 0.8);
+    color: #5a7ec8; /* Tiefes Sternenblau */
+    text-shadow: 0px 0px 10px rgba(90, 126, 200, 0.8); /* Universums-Leuchteffekt */
+}
+
+/* Markierung der aktuellen Seite */
+nav a.active, nav a:focus {
+    color: #5a7ec8; /* Beibehaltung der Hover-Farbe */
+    text-shadow: 0px 0px 12px rgba(90, 126, 200, 1);
 }
 
 /* Inhalt */
@@ -61,6 +70,7 @@ nav a:hover {
     gap: 15px;
     margin-top: 20px;
 }
+
 .link-button {
     display: block;
     width: 60%;
@@ -73,10 +83,11 @@ nav a:hover {
     text-decoration: none;
     transition: all 0.3s ease-in-out;
 }
+
 .link-button:hover {
-    background-color: #ffd700;
+    background-color: #5a7ec8; /* Universum-Hover-Farbe */
     color: #080d1f;
-    box-shadow: 0px 0px 15px rgba(255, 215, 0, 0.8);
+    box-shadow: 0px 0px 15px rgba(90, 126, 200, 0.8);
 }
 
 /* Footer */
