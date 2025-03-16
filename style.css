@@ -13,9 +13,10 @@ header {
 }
 
 .logo {
-    width: 150px; /* Passe die Größe deines Logos hier an */
+    width: 200px;  /* Falls zu klein, auf 300px oder mehr setzen */
+    height: auto;
     display: block;
-    margin: 10px auto; /* Zentriert das Logo */
+    margin: 10px auto;
 }
 
 h1 {
