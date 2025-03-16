@@ -1,10 +1,28 @@
-Willkommen auf meiner GitHub Pages Website! 🚀
-Diese Website ist online unter https://dofp79.github.io verfügbar.
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Über mich</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Über mich</h1>
+        <p>Hier kannst du mehr über mich erfahren.</p>
+    </header>
 
-Inhalt
+    <nav>
+        <a href="index.html">Start</a> |
+        <a href="about.html">Über mich</a>
+    </nav>
 
-Diese Website enthält:
+    <section>
+        <p>Ich bin ein begeisterter Entwickler, der gerne mit GitHub Pages arbeitet! 🚀</p>
+    </section>
 
-    Eine einfache HTML & CSS Website.
-    Eine index.html als Startseite.
-    Ein minimalistisches Design mit eigenem Stil.
+    <footer>
+        <p>© 2024 Dofp79 | Erstellt mit Lust und GitHub Pages</p>
+    </footer>
+</body>
+</html>
