@@ -62,7 +62,7 @@ nav a {
     transition: color 0.3s ease-in-out;
 }
 
-/* 💫 Universum-Hover-Effekt */
+/* Universum-Hover-Effekt */
 nav a:hover {
     color: #5a7ec8; /* Tiefes Sternenblau */
     text-shadow: 0px 0px 10px rgba(90, 126, 200, 0.8); /* Universums-Leuchteffekt */
