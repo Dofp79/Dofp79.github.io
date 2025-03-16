@@ -6,6 +6,12 @@ body {
     padding: 0;
 }
 
+.logo {
+    width: 150px; /* Ändere die Größe nach Bedarf */
+    display: block;
+    margin: 20px auto; /* Zentriert das Logo */
+}
+
 header {
     background: #007BFF;
     color: white;
