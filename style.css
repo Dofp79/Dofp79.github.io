@@ -1,67 +1,82 @@
-/* Grundlegende Stile */
+/* Allgemeine Stile */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
     text-align: center;
     background-color: #080d1f; /* Dunkler Nachthimmel */
     color: #d0d3e3; /* Mystisches Silberblau */
     margin: 0;
     padding: 0;
-    background-image: url('stars-bg.jpg'); /* Sternenhimmel-Hintergrund */
+    background-image: url('stars-bg.jpg'); /* Sternenhimmel */
     background-size: cover;
     background-position: center;
 }
 
-/* Header mit Logo */
+/* Header */
 header {
-    background: rgba(10, 10, 30, 0.8); /* Halbtransparenter Header für mystischen Look */
+    background: rgba(10, 10, 30, 0.8);
     padding: 30px;
-    position: relative;
 }
 
-/* Logo ohne sichtbare Ränder */
+/* Logo */
 .logo {
     width: 250px;
     height: auto;
     display: block;
     margin: 0 auto;
-    filter: drop-shadow(0px 0px 10px rgba(255, 215, 0, 0.6)); /* Goldener Glow */
-    border-radius: 50%; /* Falls das Logo rund sein soll */
-}
-
-/* Haupttitel */
-h1 {
-    color: #f0f0f0;
-    text-shadow: 0px 0px 15px rgba(200, 200, 255, 0.8);
-    font-size: 32px;
+    filter: drop-shadow(0px 0px 10px rgba(255, 215, 0, 0.6));
 }
 
 /* Navigation */
 nav {
     margin: 20px 0;
 }
-
 nav a {
     text-decoration: none;
-    color: #8ea6d5; /* Mystisches Blau */
+    color: #8ea6d5;
     font-weight: bold;
     margin: 0 15px;
     font-size: 18px;
-    transition: all 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
 }
-
 nav a:hover {
-    color: #ffd700; /* Goldener Effekt beim Hover */
+    color: #ffd700;
     text-shadow: 0px 0px 10px rgba(255, 215, 0, 0.8);
 }
 
 /* Inhalt */
-section {
+.content {
     padding: 20px;
     background: rgba(20, 20, 40, 0.8);
     border-radius: 10px;
     width: 80%;
     margin: 20px auto;
     box-shadow: 0px 0px 20px rgba(200, 200, 255, 0.3);
+}
+
+/* Link-Buttons */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+.link-button {
+    display: block;
+    width: 60%;
+    padding: 15px;
+    font-size: 18px;
+    color: #f0f0f0;
+    background-color: rgba(20, 20, 40, 0.8);
+    border: 1px solid #8ea6d5;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+.link-button:hover {
+    background-color: #ffd700;
+    color: #080d1f;
+    box-shadow: 0px 0px 15px rgba(255, 215, 0, 0.8);
 }
 
 /* Footer */
@@ -71,25 +86,4 @@ footer {
     padding: 15px;
     margin-top: 30px;
     font-size: 14px;
-}
-
-/* Mystische Buttons */
-.button {
-    display: inline-block;
-    padding: 12px 24px;
-    font-size: 18px;
-    color: #f0f0f0;
-    background-color: rgba(20, 20, 40, 0.8);
-    border: 1px solid #8ea6d5;
-    border-radius: 5px;
-    text-decoration: none;
-    cursor: pointer;
-    margin-top: 10px;
-    transition: all 0.3s ease-in-out;
-}
-
-.button:hover {
-    background-color: #ffd700; /* Goldener Schimmer */
-    color: #080d1f;
-    box-shadow: 0px 0px 15px rgba(255, 215, 0, 0.8);
 }
