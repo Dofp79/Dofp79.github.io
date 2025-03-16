@@ -33,7 +33,7 @@ header {
 
 /* Bildstile (angepasste Größe) */
 .about-image {
-    max-width: 50%;  /* Reduziert die Bildgröße auf maximal 50% der Seitenbreite */
+    max-width: 15%;  /* Reduziert die Bildgröße auf maximal 50% der Seitenbreite */
     height: auto;
     border-radius: 10px;
     box-shadow: 0px 0px 15px rgba(200, 200, 255, 0.5); /* Mystischer Glow */
